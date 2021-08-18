@@ -1,4 +1,4 @@
-import './App.css';
+import './styles/App.css';
 import Header from './Header';
 import PageTitle from './PageTitle';
 import { Switch, Route } from 'react-router-dom';
