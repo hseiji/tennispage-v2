@@ -1,5 +1,7 @@
 import './styles/App.css';
 import Header from './Header';
+import Footer from './Footer';
+import Section from './Section';
 import PageTitle from './PageTitle';
 import { Switch, Route } from 'react-router-dom';
 
@@ -21,6 +23,8 @@ function App() {
           <PageTitle title="US Open"/>
         </Route>
       </Switch>
+      <Section />
+      <Footer />
     </div>
   );
 }

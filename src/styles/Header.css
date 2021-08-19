@@ -13,7 +13,7 @@
 }
 
 .page-logo a {
-    color: black;
+    color: white;
     display: block;
     padding: 1rem;
     text-decoration: none;
@@ -35,7 +35,7 @@
     padding: 1rem;
     display: block;
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .navbar a:hover {

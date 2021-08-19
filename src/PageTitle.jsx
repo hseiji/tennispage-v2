@@ -7,7 +7,7 @@ export default function PageTitle(props) {
     const {title} = props;
     
     return (
-        <div>
+        <div className="title">
             {title}
         </div>
     )
