@@ -4,7 +4,8 @@ import { Link } from 'react-router-dom';
 
 export default function Footer() {
     return (
-        <div>
+        <div className="footer-div">
+                <hr className="footer-separator"/>
                 <footer className="main-footer">
                     <div><h3>Tennis Associations</h3></div>
                     <div className="main-footer-container">
@@ -23,7 +24,7 @@ export default function Footer() {
                             <li>
                                 <Link to="https://www.itftennis.com/en/" target="_blank">
                                     itflogo.png
-                                    <img src="images/itflogo.png" alt="ITF logo"/>
+                                    <img src="../Images/itflogo.png" alt="ITF logo"/>
                                 </Link>
                             </li>
                         </ul>
