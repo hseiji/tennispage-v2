@@ -14,6 +14,7 @@ function App() {
         <Switch>
           <Route path="/AO">
             <PageTitle title="Australian Open"/>
+            <Section content="The AO tournament tipically starts on January ..."/>
           </Route>
           <Route path="/RG">
             <PageTitle title="Roland Garros"/>

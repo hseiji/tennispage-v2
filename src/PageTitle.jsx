@@ -4,11 +4,16 @@ import './styles/PageTitle.css';
 
 export default function PageTitle(props) {
     
-    const {title} = props;
+    const {title, content} = props;
     
     return (
-        <div className="title">
-            {title}
+        <div>
+            <div className="title">
+                {title}
+            </div>
+            <div>
+                {content}
+            </div>
         </div>
     )
 }
