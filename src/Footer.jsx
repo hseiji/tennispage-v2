@@ -1,6 +1,10 @@
 import React from 'react'
 import './styles/Footer.css';
 import { Link } from 'react-router-dom';
+import atplogo from './Images/ATPlogo.png';
+import wtalogo from './Images/wta-logo.png';
+import itflogo from './Images/itflogo.png';
+
 
 export default function Footer() {
     return (
@@ -12,19 +16,17 @@ export default function Footer() {
                         <ul className="navbar footer-nav navbar-links">
                             <li>
                                 <Link to="https://www.atptour.com/" target="_blank">
-                                <img src="../Images/ATPlogo.png" alt="ATP logo"/>
+                                <img src={atplogo} alt="ATP logo"/>
                                 </Link>
                             </li> 
                             <li>
                                 <Link to="https://www.wtatennis.com/" target="_blank">
-                                    images/wta-logo.png
-                                    <img src="../Images/wta-logo.png" alt="WTA logo"/>
+                                    <img src={wtalogo} alt="WTA logo"/>
                                 </Link>
                             </li>
                             <li>
                                 <Link to="https://www.itftennis.com/en/" target="_blank">
-                                    itflogo.png
-                                    <img src="../Images/itflogo.png" alt="ITF logo"/>
+                                    <img src={itflogo} alt="ITF logo"/>
                                 </Link>
                             </li>
                         </ul>

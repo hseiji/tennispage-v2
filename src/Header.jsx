@@ -9,7 +9,11 @@ export default function Header() {
                 <div className="page-logo">
                     <Link to="/">Home</Link>
                 </div>
-
+                <a href="/" className="toggle-button">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </a>
                 <div className="navbar-links">
                     <ul>
                         <li><Link to="/AO">Australian Open</Link></li>
