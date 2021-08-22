@@ -1,15 +1,28 @@
-import React from 'react'
+import React, { useState } from 'react';
 import './styles/Header.css';
 import { Link } from 'react-router-dom';
 
 export default function Header() {
+
+    const navbarLinks = document.getElementsByClassName('navbar-links')[0]
+    const [click, setClick] = useState(false);
+    const handleClick = () => {
+        setClick(!click);
+        if(click) {
+            navbarLinks.classList.toggle('active');
+            console.log("test");
+        }
+    }
+
+    console.log(click);
+   
     return (
         <div>
             <nav className="navbar">
                 <div className="page-logo">
                     <Link to="/">Home</Link>
                 </div>
-                <a href="/" className="toggle-button">
+                <a href="/" onClick={handleClick} className='toggle-button'>
                     <span class="bar"></span>
                     <span class="bar"></span>
                     <span class="bar"></span>
