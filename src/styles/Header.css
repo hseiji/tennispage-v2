@@ -51,6 +51,8 @@
     justify-content: space-between;
     width: 30px;
     height: 21px;
+    background-color: transparent;
+    border: none;
   }
   
   .toggle-button .bar {
@@ -59,6 +61,7 @@
     border-radius: 10px;
     background-color: white;
   }
+
 
 @media (max-width: 600px) {
     .toggle-button {
@@ -88,7 +91,7 @@
         padding: .5rem 1rem;
     }
 
-    .navbar-links.active {
+    #hidden {
         display: flex;
     }
 
