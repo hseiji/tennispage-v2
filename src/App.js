@@ -1,7 +1,6 @@
 import './styles/App.css';
 import Header from './Header';
 import Footer from './Footer';
-import Section from './Section';
 import Homepage from './Homepage';
 import AOpage from './AOpage';
 import RGpage from './RGpage';
@@ -23,7 +22,6 @@ function App() {
           <Route path="/WN" component={WNpage}/>
           <Route path="/UO" component={UOpage}/>
         </Switch>
-        <Section />
       </div>
       <Footer />
     </div>

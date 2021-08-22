@@ -1,0 +1,32 @@
+.content-section {
+    color: white;
+    font-size: large;
+    margin: 50px;
+    margin-left: 70px;
+    margin-right: 70px;
+    height: 100%;
+    text-align: center;
+}
+
+.list-parent {
+    color: white;
+    font-size: large;
+    margin: 5px;
+    height: 100%;
+    text-align: center;
+}
+
+h3 {
+    margin: 0;
+    text-align: center;
+    color: white;
+}
+
+ol {
+    display: inline-block;
+    text-align: left;
+}
+
+li {
+    padding: 4px;
+}
