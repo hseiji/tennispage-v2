@@ -1,10 +1,10 @@
 import React from 'react'
-import PageTitle from './PageTitle';
-import './styles/Pages.css';
+import PageTitle from '../PageTitle';
+import '../styles/Pages.css';
 
 export default function UOpage() {
     return (
-        <div>
+        <div className="main-container">
             <PageTitle title="US Open"/>
             <p className="content-section">
                 US Open tipically starts in August to September and it is played in New York, United States on Hard courts.

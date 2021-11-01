@@ -1,10 +1,10 @@
 import React from 'react'
-import PageTitle from './PageTitle';
-import './styles/Pages.css';
+import PageTitle from '../PageTitle';
+import '../styles/Pages.css';
 
 export default function AOpage() {
     return (
-        <div>
+        <div className="main-container">
             <PageTitle title="Roland Garros"/>
             <p className="content-section">
                 Roland Garros or French Open starts from late May and it is played in Paris, France on red Clay courts.

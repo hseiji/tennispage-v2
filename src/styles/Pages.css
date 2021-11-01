@@ -29,4 +29,10 @@ ol {
 
 li {
     padding: 4px;
+    
+}
+.main-container {
+    margin: 20px 80px;
+    padding: 20px;
+    background-color: rgb(158, 156, 156, 0.7);
 }

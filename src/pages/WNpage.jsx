@@ -1,10 +1,10 @@
 import React from 'react'
-import PageTitle from './PageTitle';
-import './styles/Pages.css';
+import PageTitle from '../PageTitle';
+import '../styles/Pages.css';
 
 export default function WNpage() {
     return (
-        <div>
+        <div className="main-container">
             <PageTitle title="Wimbledon"/>
             <p className="content-section">
                 Wimbledon starts in late June to early July and it is played in London, England on the traditional grass courts. It is the oldest tennis tournament and regarded as the most prestigious. Wimbledon tradition includes a strict dress code for competitors and strawberries and cream are consumed at the tournament.

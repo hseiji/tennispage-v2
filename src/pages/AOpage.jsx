@@ -1,10 +1,10 @@
 import React from 'react'
-import PageTitle from './PageTitle';
-import './styles/Pages.css';
+import PageTitle from '../PageTitle';
+import '../styles/Pages.css';
 
 export default function AOpage() {
     return (
-        <div>
+        <div className="main-container">
             <PageTitle title="Australian Open"/>
             <p className="content-section">
                 Australian Open is the first Grand Slam of the year staring in January. It is played in Melbourne, Australia on the Hard court.

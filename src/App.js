@@ -1,11 +1,11 @@
 import './styles/App.css';
 import Header from './Header';
 import Footer from './Footer';
-import Homepage from './Homepage';
-import AOpage from './AOpage';
-import RGpage from './RGpage';
-import WNpage from './WNpage';
-import UOpage from './UOpage';
+import Homepage from './pages/Homepage';
+import AOpage from './pages/AOpage';
+import RGpage from './pages/RGpage';
+import WNpage from './pages/WNpage';
+import UOpage from './pages/UOpage';
 import { Switch, Route } from 'react-router-dom';
 
 
